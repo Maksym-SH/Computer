@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -106,18 +106,18 @@ h6 {
   background-color: #ffffff;
 }
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 .menu__item {
   display: block;
   padding: 12px 10px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -670,7 +670,7 @@ h6 {
   background-color: #7c6afa;
   border-radius: 20px;
   margin-bottom: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 .button_popap1 {
   margin-top: 10px;
@@ -973,5 +973,8 @@ h6 {
   .h2_three_block_section1,
   .h2_program_learn {
     font-size: 30px;
+  }
+  .container {
+    width: 85%;
   }
 }
