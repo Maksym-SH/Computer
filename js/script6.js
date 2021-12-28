@@ -58,6 +58,12 @@ let closeds1 = document.getElementById("clos1");
 let closeds2 = document.getElementById("clos2");
 let closeds3 = document.getElementById("clos3");
 let closeds4 = document.getElementById("clos4");
+let subs = document.getElementsByClassName("subscribe");
+let success = document.getElementById("success")
+subscribe.addEventListener("click", function() {
+    success.style.display = "block";
+})
+console.log(subscribe)
 button.addEventListener("click", function () {
   popap.style.opacity = 1;
   popap.style.visibility = "visible";
