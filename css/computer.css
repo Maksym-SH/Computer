@@ -553,14 +553,14 @@ h6 {
   height: 40px;
   border: 1px solid #000;
   border-radius: 50px;
-  background:rgba(255,255,255, 0.25);
+  background: rgba(255, 255, 255, 0.25);
   padding-left: 20px;
   font-size: 25px;
-  color:#fff;
+  color: #fff;
   font-size: 16px;
 }
-.footer_input:focus{
- outline: none;
+.footer_input:focus {
+  outline: none;
 }
 .div_input {
   width: 44px;
@@ -582,7 +582,7 @@ h6 {
   border-radius: 50px;
 }
 .footer_input::-webkit-input-placeholder {
-  color:#fff;
+  color: #fff;
 }
 .social {
   display: flex;
@@ -958,7 +958,7 @@ h6 {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 890px) {
   .footer_p_two_rows,
   .footer_progressbar_number,
   .footer_progressbar_text {

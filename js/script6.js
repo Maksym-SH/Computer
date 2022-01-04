@@ -59,16 +59,17 @@ let closeds2 = document.getElementById("clos2");
 let closeds3 = document.getElementById("clos3");
 let closeds4 = document.getElementById("clos4");
 let subs = document.getElementsByClassName("subscribe");
-let success = document.getElementById("success")
-subscribe.addEventListener("click", function() {
+let success = document.getElementById("success");
+let valueInput = document.querySelector(".footer_input");
+subscribe.addEventListener("click", function () {
+  if (valueInput.value !== "") {
     success.style.display = "block";
-})
-console.log(subscribe)
+  }
+});
 button.addEventListener("click", function () {
   popap.style.opacity = 1;
   popap.style.visibility = "visible";
 });
-
 button2.addEventListener("click", function () {
   popap.style.opacity = 1;
   popap.style.visibility = "visible";
